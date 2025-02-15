@@ -38,7 +38,7 @@ export class S3Service {
                 Key: fileKey,
                 Body: file.buffer,
                 ContentType: file.mimetype,
-                ACL: 'public-read',
+                ACL: 'bucket-owner-full-control',
             })
             .promise();
 
@@ -57,7 +57,7 @@ export class S3Service {
                 Key: fileKey,
                 Body: buffer,
                 ContentType: 'image/jpeg',
-                ACL: 'public-read',
+                ACL: 'bucket-owner-full-control',
             })
             .promise();
 
