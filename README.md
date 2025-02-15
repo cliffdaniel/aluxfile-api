@@ -84,7 +84,7 @@ npm run test
 ## API Documentation
 La documentación de la API está disponible en Swagger:
 ```
-http://localhost:3000/api
+http://localhost:3000/api/docs
 ```
 
 ## Contribución
