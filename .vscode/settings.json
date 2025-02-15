@@ -1,0 +1,17 @@
+{
+    "editor.formatOnSave": true,
+    "editor.tabSize": 4,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": "explicit"
+    },
+    "files.eol": "\n",
+    "typescript.preferences.importModuleSpecifier": "relative",
+    "typescript.preferences.quoteStyle": "single",
+    "typescript.format.enable": false,
+    "prettier.requireConfig": true,
+    "eslint.validate": ["typescript"],
+    "eslint.workingDirectories": [
+        "./"
+    ],
+    "prettier.tabWidth": 4
+}
